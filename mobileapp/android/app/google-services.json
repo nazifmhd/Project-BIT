@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "442748241989",
+    "project_id": "project-bit-efed2",
+    "storage_bucket": "project-bit-efed2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442748241989:android:49903219f99f6456533b2c",
+        "android_client_info": {
+          "package_name": "com.example.mobileapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJqgvlmHGFtE1zz7O0qyyk4NZojpgXjPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

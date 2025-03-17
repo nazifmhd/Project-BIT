@@ -23,7 +23,7 @@ class StartPage extends StatefulWidget {
 }
 
 class _StartPageState extends State<StartPage> {
-  late MqttService _mqttService;
+  //late MqttService _mqttService;
   double _currentSliderValue = 50;
   bool isTextReadingEnabled = false;
   bool isFaceRecognitionEnabled = false;
@@ -33,17 +33,17 @@ class _StartPageState extends State<StartPage> {
   @override
   void initState() {
     super.initState();
-    _mqttService = MqttService('broker.hivemq.com', 'flutter_client');
+    //_mqttService = MqttService('broker.hivemq.com', 'flutter_client');
   }
 
   void _connectMQTT() {
-    _mqttService.isDetectionActive = true;
-    _mqttService.connect();
+    //_mqttService.isDetectionActive = true;
+    //_mqttService.connect();
   }
 
   void _disconnectMQTT() {
-    _mqttService.isDetectionActive = false;
-    _mqttService.disconnect();
+    //_mqttService.isDetectionActive = false;
+    //_mqttService.disconnect();
   }
 
   @override

@@ -3,10 +3,6 @@ import 'dart:async';
 import 'package:mobileapp/authenticate/signin.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
-void main() async {
-  runApp(VisiosenseApp());
-}
-
 class VisiosenseApp extends StatelessWidget {
   const VisiosenseApp({super.key});
   @override
